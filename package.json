@@ -1,0 +1,14 @@
+{
+  "name": "ingredients-unit-converter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/brkss/ingredients-unit-converter.git",
+  "author": "Brahim Berkasse <32434103+brkss@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
