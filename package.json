@@ -1,15 +1,29 @@
 {
   "name": "ingredients-unit-converter",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "description": "ingredient unit converter",
+  "types": "lib/indesx.d.ts",
   "repository": "https://github.com/brkss/ingredients-unit-converter.git",
-  "author": "Brahim Berkasse <32434103+brkss@users.noreply.github.com>",
+  "author": "Brahim Berkasse",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
     "test": "jest --config jestconfig.json",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "prepare": "yarn build",
+    "prepublishOnly": "yarn test && yarn lint",
+    "preversion": "yarn lint",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
   },
+  "keywords": [
+    "Ingredients",
+    "Unit",
+    "Convert",
+    "typescript",
+    "recipe"
+  ],
   "files": [
     "lib/**/*"
   ],
