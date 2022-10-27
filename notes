@@ -1,0 +1,49 @@
+//
+/*
+cup,
+pinch,
+teaspoon,
+tablespoon,
+gram
+pound
+whole
+tsp
+ounce
+handful
+rib
+milliliter
+serving
+clove
+pint
+grain
+potato
+tablespoons
+loaf
+cap
+quart
+drop
+scoop
+slice
+frozen
+head
+cups
+ear
+dash
+bunch
+*/
+// --- --- --- --
+/*
+ * currently supported units !
+ *
+ * pound
+ * whole
+ * tsp
+ * ounce
+ * handful
+ * pint
+ * grain
+ * quart
+ * scroop
+ * bunch
+ */
+
